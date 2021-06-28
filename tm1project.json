@@ -1,13 +1,10 @@
-
-
 {
 "Version": "1.0",
   "Name": "My Model"
 },
-  "Name": "test4",
-  "Dimensions":
-  [
-    { "@id": "Dimensions('account2')" },
-    { "@id": "Dimensions('Currency')" }
-  ]
-}
+"Ignore":
+[
+  "Cubes/Views",
+  "!Cubes('test1')",
+  "!Processes('Include')"
+]
