@@ -1,0 +1,5 @@
+﻿FILE_FORMAT=100
+ENTRYNAME=upload test.xlsx
+ENTRYTYPE=blob
+ENTRYREFERENCE=TM1:///blob/PUBLIC/.\}Externals\upload test.xlsx_20210611100154.xlsx
+REMOVEBLOBONDELETE=Yes

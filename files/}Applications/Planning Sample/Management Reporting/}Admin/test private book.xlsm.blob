@@ -1,0 +1,5 @@
+﻿FILE_FORMAT=100
+ENTRYNAME=test private book.xlsm
+ENTRYTYPE=blob
+ENTRYREFERENCE=TM1:///blob/PUBLIC/.\}Externals\test private book.xlsm_20210211061011.xlsm
+REMOVEBLOBONDELETE=Yes

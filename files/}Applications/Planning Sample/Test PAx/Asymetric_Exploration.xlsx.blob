@@ -1,0 +1,5 @@
+﻿FILE_FORMAT=100
+ENTRYNAME=Asymetric_Exploration.xlsx
+ENTRYTYPE=blob
+ENTRYREFERENCE=TM1:///blob/PUBLIC/.\}Externals\Asymetric_Exploration_20201126123847.xlsx
+REMOVEBLOBONDELETE=Yes
