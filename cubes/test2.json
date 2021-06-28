@@ -11,8 +11,5 @@
 			"@id":"Dimensions('month')"
 		}
 	],
-	"Views@Code.links":
-	[
-		"test2.views/Default.json"
-	]
+	"Views@Code.links":[]
 }
