@@ -1,13 +1,28 @@
-
-
 {
-"Version": "1.0",
-  "Name": "My Model"
-},
-  "Name": "test4",
-  "Dimensions":
-  [
-    { "@id": "Dimensions('account2')" },
-    { "@id": "Dimensions('Currency')" }
-  ]
+  "Version": "1.0",
+  "Name": "My Model",
+  "Settings": {
+    "Performance": {
+      "MTQ": {
+        "MTFeedersAtStartup": false
+      }
+    }
+  },
+  "Tasks": {
+      "Refresh Security":
+    {
+      "Process": "Processes('Refresh Security')",
+      "Parameters": []
+    }
+	},
+  "Objects": {},
+  "Ignore": [
+      "Processes('Not Include')",
+      "Processes('Not Include1')"
+  ],
+  "Deployment": {},
+  "PrePull": [],
+  "PostPull": [],
+  "PrePush": [],
+  "PostPush": []
 }
