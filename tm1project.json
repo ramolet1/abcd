@@ -1,13 +1,22 @@
-
-
 {
-"Version": "1.0",
-  "Name": "My Model"
+  "Version": "1.0",
+  "Name": "My Model",
+  "Objects":
+{
+  "Cubes":
+  {
+    "Link": "/all_cubes.json"
+  },
+  "Cubes('test14')":
+  { },
+  "Files":
+  {
+    "Link": "/all_files/"
+  }
 },
-  "Name": "test4",
-  "Dimensions":
-  [
-    { "@id": "Dimensions('account2')" },
-    { "@id": "Dimensions('Currency')" }
-  ]
+  "Deployment": {},
+  "PrePull": [],
+  "PostPull": [],
+  "PrePush": [],
+  "PostPush": []
 }
