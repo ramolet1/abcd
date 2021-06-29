@@ -1,13 +1,11 @@
-
-
 {
-"Version": "1.0",
-  "Name": "My Model"
-},
-  "Name": "test4",
-  "Dimensions":
-  [
-    { "@id": "Dimensions('account2')" },
-    { "@id": "Dimensions('Currency')" }
-  ]
+  "Version": "1.0",
+  "Name": "My Model",
+"Files":
+[
+    "/}Applications/*"
+],
+"Ignore": [
+    "Processes('Not Include')"
+]
 }
