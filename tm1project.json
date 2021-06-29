@@ -1,13 +1,16 @@
-
-
 {
-"Version": "1.0",
-  "Name": "My Model"
-},
-  "Name": "test4",
-  "Dimensions":
-  [
-    { "@id": "Dimensions('account2')" },
-    { "@id": "Dimensions('Currency')" }
-  ]
+  "Version": "1.0",
+  "Ignore":
+[
+"Cubes/Views",
+"Processes",
+"!Cubes('test12')",
+"!Processes('Include')",
+"Dimensions('Cou*')"
+],
+   "Deployment": {},
+  "PrePull": [],
+  "PostPull": [],
+  "PrePush": [],
+  "PostPush": []
 }

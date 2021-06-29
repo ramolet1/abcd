@@ -1,11 +1,10 @@
 {
 	"@type":"Cube",
-	"Name":"test2",
-	"Rules@Code.link":"test2.rules",
+	"Name":"test15",
 	"Dimensions":
 	[
 		{
-			"@id":"Dimensions('account2')"
+			"@id":"Dimensions('Currency')"
 		},
 		{
 			"@id":"Dimensions('month')"
