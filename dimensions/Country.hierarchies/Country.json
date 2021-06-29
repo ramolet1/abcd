@@ -4,6 +4,10 @@
 	"Elements":
 	[
 		{
+			"Name":"India",
+			"Type":"Numeric"
+		},
+		{
 			"Name":"Americas",
 			"Type":"Consolidated"
 		},
