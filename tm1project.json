@@ -1,13 +1,10 @@
-
-
 {
-"Version": "1.0",
-  "Name": "My Model"
-},
-  "Name": "test4",
-  "Dimensions":
-  [
-    { "@id": "Dimensions('account2')" },
-    { "@id": "Dimensions('Currency')" }
-  ]
+  "Version": "1.0",
+"Objects":
+{
+    "Cubes('test12')":
+    {
+    "Precondition": "HasChanged('/dimensions/account2.json')"
+    }
+    }
 }
