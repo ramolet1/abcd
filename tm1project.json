@@ -1,20 +1,15 @@
 {
   "Version": "1.0",
-  
+
   "Ignore":
 [
 "Cubes/Views",
 "Cubes",
 "Processes",
-"!Cubes('test14')",
-"!Cubes('PNLCube')",
+"!Cubes('test12')",
 "!Dimensions('}Clients')",
 "!Processes('Include')",
 "Dimensions('mea*')"
-],
-"Files":
-[
-    "/}Applications/PNL new*"
 ],
    "Deployment": {},
   "PrePull": [],
