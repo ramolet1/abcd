@@ -1,17 +1,30 @@
 {
   "Version": "1.0",
+  "Name": "My Model",
+  "Settings": {
+    "Performance": {
+      "MTQ": {
+        "MTFeedersAtStartup": false
+      }
+    }
+  },
+  "Tasks": {
+      "Refresh Security":
+    {
+      "Process": "Processes('Refresh Security')",
+      "Parameters": []
+    }
+	},
+  "Objects": {},
+  "Files": [
 
-  "Ignore":
-[
-"Cubes/Views",
-"Cubes",
-"Processes",
-"!Cubes('test12')",
-"!Dimensions('}Clients')",
-"!Processes('Include')",
-"Dimensions('mea*')"
-],
-   "Deployment": {},
+	],
+  "Ignore": [
+      "Processes('Not Include1')",
+      "Processes('Not Include')",
+      "Chores('test1')"
+  ],
+  "Deployment": {},
   "PrePull": [],
   "PostPull": [],
   "PrePush": [],

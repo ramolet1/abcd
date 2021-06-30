@@ -1,17 +1,18 @@
 {
 	"@type":"Cube",
-	"Name":"test12",
+	"Name":"test2",
+	"Rules@Code.link":"test2.rules",
 	"Dimensions":
 	[
 		{
 			"@id":"Dimensions('account2')"
 		},
 		{
-			"@id":"Dimensions('actvsbud')"
+			"@id":"Dimensions('month')"
 		}
 	],
 	"Views@Code.links":
 	[
-		"test12.views/Default.json"
+		"test2.views/Default.json"
 	]
 }
